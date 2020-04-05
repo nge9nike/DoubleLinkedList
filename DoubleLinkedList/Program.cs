@@ -91,7 +91,7 @@ namespace DoubleLinkedList
             //Zahlenwert dieser Instanz
             Number = number;
 
-            //Wenn eine vorhergehende Numbers definiert ist: Die vorhergehende Numbers hat diese Numbers als nächste Numbers 
+            //Wenn eine vorhergehende Numbers definiert ist: Die vorhergehende Numbers hat diese Instanz als nächste Numbers 
             if (previous != null)
             {
                 previous.Next = this;
